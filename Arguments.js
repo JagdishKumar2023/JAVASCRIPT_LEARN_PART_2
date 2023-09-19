@@ -23,11 +23,11 @@
 //   } else if (b > a) {
 //     return -10;
 //   } else {
-//     return 0;
+//     return 15;
 //   }
 // }
 
-// let c = compare(12, 11);
+// let c = compare(12, 15);
 
 // console.log(c);
 

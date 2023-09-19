@@ -1,4 +1,4 @@
-// //===Arrays===(An array is a special variable, which can hold more than one value)
+// ===Arrays===(An array is a special variable, which can hold more than one value)
 
 // let book1 = "Maths";
 // let book2 = "Physic";
@@ -28,7 +28,7 @@
 
 // fruits.unshift("Hindi", "English"); //(unshift = (Add new elements to an array)) Add some one or more element in the staring part of array (Add new elements to an array))
 
-//==splice
+//==SPLICE==
 
 // fruits.splice(1, 2);
 
@@ -36,15 +36,15 @@
 
 // console.log(fruits);
 
-//==Indexof
+//==indexof==
 
 // let book = ["maths", "physic", "chemistry"];
 
-// let position = book.indexOf(2);
+// let position = book.indexOf(0);
 
 // console.log(position);
 
-//==(Split)(space between Two string)
+//==(Split)(Space Between Two string)
 
 // let text = "This is a  random text";
 
@@ -52,27 +52,59 @@
 
 // console.log(text);
 
-//==(WithPages)
+//==(WITHPAGES)==
 
 // let book = ["Math", "Physics", "bio", "Computer Science"];
 
 // let bookWithPages = [[("Math", "400")], [("Physic", "500")], [("Bio", "600")]];
 
-// let fetch = bookWithPages[0];
+// let fetch = bookWithPages[1];
 
 // console.log(fetch);
+
+//===Dout session===
 
 // let movies = ["Pushpa", "RRR", "kgf"];
 
 // let actormovies = [
-//   [("allu-arjun", "Pushpa")],
-//   [("ram charen", "RRR")],
-//   [("yash", "kgf")],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
+//   ["Allu-arjun", "Pushpa"],
+//   ["Ram charen", "RRR"],
+//   ["Yash", "KGF"],
 // ];
 
-// actormovies[0];
+// for (let i = 0; i < actormovies.length; i++) {
+//   //DRY - Do not repeat
+//   console.log(actormovies[i][0]);
+// }
 
-// console.log(actormovies);
+// console.log(actormovies.length);
+// console.log(actormovies[0][0]);
+// console.log(actormovies[1][0]);
+// console.log(actormovies[2][0]);
 
 // for (i = 0; i < actormovies; i++) {
 //   console.log(`Element ${i} is ${movies[i]} \n`);
@@ -82,13 +114,13 @@
 
 //===Parameters and Argument (funtion)
 
-// function MulTable(num) {
+// function MulTable(num) { (Parameter)
 //   for (i = 1; i <= 10; i++) {
 //     console.log(`${num} x ${num * i}`);
 //   }
 // }
 
-// MulTable(4);
+// MulTable(4);(Arguments)
 
 // function add(sum) {
 //   for (i = 1; i <= 10; i++) {
