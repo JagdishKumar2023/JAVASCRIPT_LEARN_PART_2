@@ -134,9 +134,24 @@
 
 // AddNewName();
 
-function divinum(n1, n2) {
-  const a = n1 - n2;
-  console.log(a);
+// function divinum(n1, n2) {
+//   const a = n1 - n2;
+//   console.log(a);
+// }
+
+// divinum(50, 200);
+
+// function HeadName(h1, h2) {
+//   console.log("book1");
+//   console.log("book2");
+// }
+
+// HeadName();
+
+function GoaDirct(s1, n2, e3) {
+  console.log("South_Goa");
+  console.log("Nourth Goa");
+  console.log("East Goa");
 }
 
-divinum(50, 200);
+GoaDirct();
