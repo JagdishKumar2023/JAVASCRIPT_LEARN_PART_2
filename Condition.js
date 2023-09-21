@@ -24,4 +24,6 @@
 // console.log(isLoggedin == 1);
 // console.log(option);
 
-// // DOM
+for (i = 1; i <= 10; i++) {
+  console.log(`2 x ${i} = ${2 * i}`);
+}

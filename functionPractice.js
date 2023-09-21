@@ -20,7 +20,8 @@
 // addTwoNumber(2, 7);
 
 // function jagdish(num, num2) {
-//   return num - num2;
+//   const a = num - num2;
+//   return a;
 // }
 
 // jagdish(2, 8);
@@ -101,15 +102,41 @@
 
 // console.log(square(2));
 
-function addSquares(a, b) {
-  const sa = square(a);
-  const sb = square(b);
+// function addSquares(a, b) {
+//   const sa = square(a);
+//   const sb = square(b);
 
-  function square(num) {
-    return num * num;
-  }
+//   function square(num) {
+//     return num * num;
+//   }
 
-  return sa + sb;
+//   return sa + sb;
+// }
+
+// console.log(Squares(2, 4));
+
+// function multiply(a, b) {
+//   let multiply = 4 * 5;
+//   console.log(multiply);
+// }
+
+// function addThreeNum(num1, num2, num3) {
+//   let a = num1 * num2 + num3;
+//   console.log(a);
+// }
+
+// addThreeNum(4, 5, 5);
+
+// function AddNewName() {
+//   console.log("sonu");
+//   console.log("happy");
+// }
+
+// AddNewName();
+
+function divinum(n1, n2) {
+  const a = n1 - n2;
+  console.log(a);
 }
 
-console.log(Squares(2, 4));
+divinum(50, 200);
