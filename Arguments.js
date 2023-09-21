@@ -12,7 +12,7 @@
 
 // let addition = add;
 
-// // addition(5, 2);
+//  addition(5, 2);
 // add(5, 7, 10);
 
 //===RETURN VALUE IN JAVASCRIPT

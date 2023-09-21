@@ -6,8 +6,8 @@
 
 // show();
 
-function show() {
-  console.log("My name is Jagdish kumar singh");
-}
+// function show() {
+//   console.log("My name is Jagdish kumar singh");
+// }
 
-setTimeout(show, 2000);
+// setTimeout(show, 1000);
