@@ -148,10 +148,10 @@
 
 // HeadName();
 
-function GoaDirct(s1, n2, e3) {
-  console.log("South_Goa");
-  console.log("Nourth Goa");
-  console.log("East Goa");
-}
+// function GoaDirct(s1, n2, e3) {
+//   console.log("South_Goa");
+//   console.log("Nourth Goa");
+//   console.log("East Goa");
+// }
 
-GoaDirct();
+// GoaDirct();

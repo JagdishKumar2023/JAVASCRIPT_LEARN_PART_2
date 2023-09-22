@@ -1,10 +1,10 @@
 //funtion expression
 
-// let show = function () {
-//   console.log("Hello world!");
-// };
+let show = function () {
+  console.log("Hello world!");
+};
 
-// show();
+show();
 
 // function show() {
 //   console.log("My name is Jagdish kumar singh");
