@@ -34,36 +34,36 @@
 
 // console.log("jagdish", "singh");
 
-let collage_name = [
-  {
-    id: 1,
-    collge_nam: "S.N  Collage",
-    total_student: "500",
-    total_strem: "8",
-  },
+// let collage_name = [
+//   {
+//     id: 1,
+//     collge_nam: "S.N  Collage",
+//     total_student: "500",
+//     total_strem: "8",
+//   },
 
-  {
-    id: 2,
-    collage_nam: "Punamchan Gupta collage (special for BBA)",
-    total_student: "300",
-    total_strem: "8",
-  },
+//   {
+//     id: 2,
+//     collage_nam: "Punamchan Gupta collage (special for BBA)",
+//     total_student: "300",
+//     total_strem: "8",
+//   },
 
-  {
-    id: 3,
-    collage_nam: "C.V Raman",
-    total_student: "400",
-    total_strem: "10",
-  },
+//   {
+//     id: 3,
+//     collage_nam: "C.V Raman",
+//     total_student: "400",
+//     total_strem: "10",
+//   },
 
-  {
-    id: 4,
-    collage_nam: "Scholar Den Collage (Special for Bio",
-    total_student: "1000",
-    total_strem: "15",
-  },
-];
+//   {
+//     id: 4,
+//     collage_nam: "Scholar Den Collage (Special for Bio",
+//     total_student: "1000",
+//     total_strem: "15",
+//   },
+// ];
 
-console.log(collage_name[3].total_strem);
-console.log(collage_name[3].collage_nam);
-console.log(collage_name[3].id);
+// console.log(collage_name[3].total_strem);
+// console.log(collage_name[3].collage_nam);
+// console.log(collage_name[3].id);
