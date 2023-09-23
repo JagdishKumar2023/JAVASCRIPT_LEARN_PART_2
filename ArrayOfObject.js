@@ -34,6 +34,8 @@
 
 // console.log("jagdish", "singh");
 
+// COLLAGE NAME AND STREM IN KHANDWA
+
 // let collage_name = [
 //   {
 //     id: 1,
@@ -67,3 +69,54 @@
 // console.log(collage_name[3].total_strem);
 // console.log(collage_name[3].collage_nam);
 // console.log(collage_name[3].id);
+
+// HOTEL NAME AND TOTAL SALE
+
+// let hotel_name = [
+//   {
+//     id: "1",
+//     hotel_nam: "Agan Dhaba",
+//     total_sale: "10000 Per Day",
+//     total_Person: "400 Per Day",
+//   },
+//   {
+//     id: "2",
+//     hotel_nam: "Dilli DarBar",
+//     total_sale: "10000 Per Day",
+//     total_Person: "400 Per Day",
+//   },
+//   {
+//     id: "3",
+//     hotel_nam: "Anna Resutent",
+//     total_sale: "15000 Per Day",
+//     total_Person: "400 Per Day",
+//   },
+// ];
+
+// console.log(hotel_name[0].total_sale);
+// console.log(hotel_name[0].hotel_nam);
+// console.log(hotel_name[0].total_Person);
+
+//STATE NAME AND POPULATION
+
+// let state_name = [
+//   {
+//     id: 1,
+//     State_nam: "Madhya Pradesh",
+//     total_Population: "1000000",
+//   },
+//   {
+//     id: 2,
+//     State_nam: "Bihar",
+//     total_Population: "400000",
+//   },
+//   {
+//     id: 3,
+//     State_nam: "Assam",
+//     total_Population: "700000",
+//   },
+// ];
+
+// console.log(state_name[1].State_nam);
+// console.log(state_name[1].total_Population);
+// console.log(state_name[1].id);

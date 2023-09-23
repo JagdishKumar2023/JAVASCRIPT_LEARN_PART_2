@@ -65,8 +65,8 @@
 
 // Very Intersting function ==
 
-setInterval(function () {
-  console.log("Its time to drink water");
-  console.log(new Date());
-  //   clearInterval(timerId);
-}, 5000);
+// setInterval(function () {
+//   console.log("Its time to drink water");
+//   console.log(new Date());
+//   //   clearInterval(timerId);
+// }, 5000);
