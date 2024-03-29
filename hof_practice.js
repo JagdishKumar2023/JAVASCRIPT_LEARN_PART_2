@@ -21,7 +21,23 @@ let product_data = [
 //   };
 // });
 
-// console.log(new_discounted_data);
+// let new_discounteds_data = product_data.map(function (ele, idx, array) {
+//   return {
+//     ...ele,
+//     price: ele.price - 300,
+//   };
+// });
+
+// console.log(new_discounteds_data);
+
+let NewDiscountPrice = product_data.map(function (ele, idx, array) {
+  return {
+    ...ele,
+    count: ele.price - 3,
+  };
+});
+
+console.log(NewDiscountPrice);
 
 // let discounted_shoes = product_data.map(function (ele, idx, array) {
 //   if (ele.product === "shoes") {
@@ -33,7 +49,7 @@ let product_data = [
 //   return ele;
 // });
 
-// console.log(discounted_shoes);
+// console.log(discounted_shoes);node
 
 // filter
 
@@ -62,8 +78,41 @@ let product_data = [
 // // reduce returns number
 // // calculation
 
-let total_price = product_data.reduce(function (acc, ele, array) {
-  return acc + ele.price;
-}, 0);
+// let total_price = product_data.reduce(function (acc, ele, array) {
+//   return acc + ele.price;
+// }, 0);
 
-console.log(total_price);
+// console.log(total_price);
+
+// let ZomatoMenu = [
+//   { id: 1, NonVeg: "chic masala plate", Price: 140, count: 8 },
+//   { id: 2, NonVeg: "Harabhara Kabaab", Price: 360, count: 10 },
+//   { id: 3, Snack: "Fish Tikka", Price: 380, count: 7 },
+//   // { id: 4, complimentry: "Dal snack", Price: 0, count: "Unlimited" },
+//   { id: 5, Veg: "Veg Biryani", Price: 140, count: 12 },
+//   { id: 6, Snack: "Cripy Corn", Price: 100, count: 15 },
+//   { id: 7, Papad: "Papad Masala,Fry Papad", Price: 20, count: 40 },
+// ];
+
+// let NewDiscount = ZomatoMenu.map(function (ele, idx, array) {
+//   return {
+//     ...ele,
+//     Price: ele.Price - 5,
+//   };
+// });
+
+// console.log(NewDiscount);
+
+// let lessThanHundred = ZomatoMenu.filter(function (ele, idx, array) {
+//   if (ele.Price <= 100) {
+//     return ele;
+//   }
+// });
+
+// console.log(lessThanHundred);
+
+// let calculateCountSum = ZomatoMenu.reduce(function (acc, ele, idx, array) {
+//   return acc + ele.count;
+// }, 0);
+
+// console.log(calculateCountSum);

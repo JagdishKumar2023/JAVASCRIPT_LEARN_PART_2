@@ -12,14 +12,14 @@ let ZomatoMenu = [
 
 // update
 
-// let NewZomatoMenu = ZomatoMenu.map(function (ele, idx, array) {
-//   return {
-//     ...ele,
-//     count: ele.count - 7,
-//   };
-// });
+let NewZomatoMenu = ZomatoMenu.map(function (ele) {
+  return {
+    ...ele,
+    Price: ele.Price - 50,
+  };
+});
 
-// console.log(NewZomatoMenu);
+console.log(NewZomatoMenu);
 
 // let NewZomatoMenu = ZomatoMenu.map(function (ele, idx, array) {
 //   return {
@@ -54,13 +54,13 @@ let ZomatoMenu = [
 
 // === SCOTCH DATA
 
-let scotch_data = [
-  { id: 1, scotch: "HUNDRED Pipers", price: 1400, total_sale: 8 },
-  { id: 2, scotch: "Belantin", price: 1700, total_sale: 12 },
-  { id: 3, scotch: "Black and White", price: 1870, total_sale: 15 },
-  { id: 4, scotch: "Redlabel", price: 2150, total_sale: 13 },
-  { id: 5, scotch: "Black Dog", price: 2420, total_sale: 6 },
-];
+// let scotch_data = [
+//   { id: 1, scotch: "HUNDRED Pipers", price: 1400, total_sale: 8 },
+//   { id: 2, scotch: "Belantin", price: 1700, total_sale: 12 },
+//   { id: 3, scotch: "Black and White", price: 1870, total_sale: 15 },
+//   { id: 4, scotch: "Redlabel", price: 2150, total_sale: 13 },
+//   { id: 5, scotch: "Black Dog", price: 2420, total_sale: 6 },
+// ];
 
 // let Newtotal_sale = scotch_data.map(function (ele, idx, array) {
 //   return {
@@ -203,8 +203,8 @@ let scotch_data = [
 
 // console.log(total_price);
 
-let total_count = ZomatoMenu.reduce(function (acc, ele, idx, array) {
-  return acc + ele.count;
-}, 0);
+// let total_count = ZomatoMenu.reduce(function (acc, ele, idx, array) {
+//   return acc + ele.count;
+// }, 0);
 
-console.log(total_count);
+// console.log(total_count);

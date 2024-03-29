@@ -40,7 +40,7 @@
 
 // let book = ["maths", "physic", "chemistry"];
 
-// let position = book.indexOf(0);
+// let position = book.indexOf(10);
 
 // console.log(position);
 
@@ -62,7 +62,7 @@
 
 // console.log(fetch);
 
-//===Dout session===
+//===Doubt session===
 
 // let movies = ["Pushpa", "RRR", "kgf"];
 
